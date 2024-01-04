@@ -3,7 +3,7 @@ import React from 'react'
 import styles from '../Home/style';
 import TopHeader from '../../components/TopHeader/index'
 import { Card } from 'react-native-paper';
-import { mentalHealth, workOutDays } from '../../utils/data'
+import { mentalHealth} from '../../utils/data'
 
 function ItemList({ image, category, navigation }) {
   const selectedCategory = () => {
