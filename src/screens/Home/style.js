@@ -29,7 +29,7 @@ export default styles = StyleSheet.create({
         alignItems: 'center',
     },
     cardTitle: {
-        fontSize: RFPercentage(2.2),
+        fontSize: RFPercentage(2),
         color: '#000',
         fontWeight: '500',
         textAlign: 'center',

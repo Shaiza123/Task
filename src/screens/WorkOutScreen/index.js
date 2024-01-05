@@ -17,7 +17,7 @@ const WorkOutScreen = ({ navigation }) => {
       <TouchableOpacity onPress={selectedDay}>
         <Card style={[styles.daysCard, { backgroundColor: status === 'active' ? "#5E3B63" : status === 'pending' ? "#FF8F3E" : "#fff" }]} mode='contained'>
           <Card.Content style={styles.daysCardContent}>
-            <Text style={[styles.daysCardTitle, { color: status === 'active' ? "#FFFFFF" : "#151515", fontSize: RFPercentage(2.8), fontWeight: "700", }]}>{date}</Text>
+            <Text style={[styles.daysCardTitle, { color: status === 'active' ? "#FFFFFF" : "#151515", fontSize: RFPercentage(2.5), fontWeight: "700", }]}>{date}</Text>
             <Text style={[styles.daysCardTitle, { color: status === 'active' ? "#FFFFFF" : "#151515" }]}>{day}</Text>
           </Card.Content>
         </Card>

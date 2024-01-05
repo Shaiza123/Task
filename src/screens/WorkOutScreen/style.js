@@ -31,7 +31,7 @@ export default styles = StyleSheet.create({
         backgroundColor:"#F7AD45"
     },
     daysCardTitle: {
-        fontSize: RFPercentage(1.7),        
+        fontSize: RFPercentage(1.5),        
     },
     daysCardContent:{
         justifyContent:'center',
@@ -39,13 +39,13 @@ export default styles = StyleSheet.create({
         paddingVertical:hp(0.5)
     },
     progressCardTitle: {
-        fontSize: RFPercentage(1.8),
+        fontSize: RFPercentage(1.7),
         width:wp(20), 
         fontWeight:'400',  
         color:"#000000"       
     },
     progressCardNumber: {
-        fontSize: RFPercentage(4.5),  
+        fontSize: RFPercentage(4.3),  
         fontWeight:'700',  
         color:"#000000"       
     },
