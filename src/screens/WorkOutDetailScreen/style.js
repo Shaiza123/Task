@@ -41,13 +41,13 @@ export default styles = StyleSheet.create({
         marginBottom:hp(1),
     },
     WorkOutCardTitle: {
-        fontSize: RFPercentage(2),
-        width:wp(25), 
+        fontSize: RFPercentage(1.8),
+        width:wp(27), 
         fontWeight:'500',  
         color:"#000000"       
     },
     WorkOutCardTime: {
-        fontSize: RFPercentage(1.8),
+        fontSize: RFPercentage(1.6),
         width:wp(25), 
         fontWeight:'400',  
         color:"#fff"       
